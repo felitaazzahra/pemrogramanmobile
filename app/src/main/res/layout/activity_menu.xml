@@ -94,6 +94,42 @@
                 android:text="Latihan lanjutan menyimpan banyak data (JSON Array) dengan RecyclerView &amp; sinkronisasi real-time."
                 android:textSize="12sp"
                 android:textColor="#64748B" />
+            <Button
+                android:id="@+id/btn_listview"
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:text="3. Membuat List View Dasar"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:backgroundTint="#E284BD"
+                android:textColor="#FFFFFF"
+                app:cornerRadius="10dp"
+                android:layout_marginBottom="8dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Membuat kontak WA sederhana"
+                android:textSize="12sp"
+                android:textColor="#64748B" />
+            <Button
+                android:id="@+id/btn_recycleview"
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:text="4. Membuat Recycle Dasar"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:backgroundTint="#E284BD"
+                android:textColor="#FFFFFF"
+                app:cornerRadius="10dp"
+                android:layout_marginBottom="8dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Membuat kontak WA sederhana"
+                android:textSize="12sp"
+                android:textColor="#64748B" />
 
         </LinearLayout>
     </com.google.android.material.card.MaterialCardView>

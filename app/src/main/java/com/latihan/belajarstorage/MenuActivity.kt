@@ -21,6 +21,8 @@ class MenuActivity : AppCompatActivity() {
 
         val btnMenu1 = findViewById<Button>(R.id.btnMenu1)
         val btnMenu2 = findViewById<Button>(R.id.btnMenu2)
+        val btnListView = findViewById<Button>(R.id.btn_listview)
+        val btnRecyclerView = findViewById<Button>(R.id.btn_recycleview)
 
         // Navigasi ke Halaman Simpan 1 Data (MainActivity)
         btnMenu1.setOnClickListener {
@@ -31,6 +33,18 @@ class MenuActivity : AppCompatActivity() {
         // Navigasi ke Halaman Simpan Banyak Data (MultiDataActivity)
         btnMenu2.setOnClickListener {
             val intent = Intent(this, MultiDataActivity::class.java)
+            startActivity(intent)
+        }
+
+        // Navigasi ke ListView Activity
+        btnListView.setOnClickListener {
+            val intent = Intent(this, ListViewActivity::class.java)
+            startActivity(intent)
+        }
+
+        // Navigasi ke RecyclerView Activity
+        btnRecyclerView.setOnClickListener {
+            val intent = Intent(this, RecycleViewActivity::class.java)
             startActivity(intent)
         }
     }
