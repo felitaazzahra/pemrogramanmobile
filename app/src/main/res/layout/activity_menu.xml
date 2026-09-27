@@ -119,7 +119,7 @@
                 android:text="4. Membuat Recycle Dasar"
                 android:textSize="15sp"
                 android:textStyle="bold"
-                android:backgroundTint="#E284BD"
+                android:backgroundTint="#C3b091"
                 android:textColor="#FFFFFF"
                 app:cornerRadius="10dp"
                 android:layout_marginBottom="8dp" />
